@@ -1,11 +1,12 @@
 @import url('//fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 
 body {
-  font-family: "Nanum Gothic", "Roboto Condensed", Arial, sans-serif;
+  font-family: "Noto Sans KR", "Roboto Condensed", Arial, sans-serif;
   background: url("/static/img/subtle_dots.png");
   line-height: 1.5em;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 13px;
   color: #666;
 }
 hr {
@@ -63,7 +64,7 @@ div.content pre {
   padding: 10px;
   color: #FFF;
   overflow-x: auto;
-  font-family: "Nanum Gothic",  Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: "Noto Sans KR",  Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 12px;
   border: none;
 }
