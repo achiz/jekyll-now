@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NAVER PINPOINT 윈도우 설치
-date : 2017-07-28
+date : 2017-08-01
 ---
 
 ## Pinpoint ?
