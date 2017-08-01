@@ -4,11 +4,11 @@ title: SCOUTER APM 설치
 date : 2017-08-01
 ---
 
-##
+## Scouter ?
 ***
 ![scouter.png]({{ site.baseurl }}/images/post/scouter.PNG)
 
-Scouter 는 Pinpoint와 같은 APM 의 종류 중 하나로 Opensource 로 만들어져있다.
+Scouter 는 Pinpoint와 같은 APM 의 종류 중 하나로 Opensource 로 제작되었다.
 * Github Scouter : [QuickStart github](https://github.com/scouter-project/scouter)
 * QuickStart : [Scouter QuickStart](https://github.com/scouter-project/scouter/blob/master/scouter.document/main/Quick-Start.md)
 
