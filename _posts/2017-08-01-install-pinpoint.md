@@ -41,9 +41,13 @@ Pinpoint 는 네이버에서 개발한 APM Tool 이다.
 * 그후 다시 mvn instal -Dmaven.test.skip=true Go! 필요한 라이브러리를 다운로드 받기위해 빌드 속도가 많이 느릴 수 있다. 모듈이 정상적으로 패키징되면 Pinpoint 의 설치는 끝이라 볼 수 있다.
 
 **HBase 시작 및 테이블 초기화**
-* Pinpoint_Home\quickstart\bin\start-hbase.cmd (hbase 시작)
+``` 
+Pinpoint_Home\quickstart\bin\start-hbase.cmd (hbase 시작)
+```
 * start-hbase를 시작하면 cmd 창에서 스크립트 파일을 복사할것이냐는 문구가 나오는데 YES 하고 진행하면 경로를 못찾는 문제가 간혹있다. 그럴경우에는 Pinpoint_Home\quickstart\hbase\hbase\bin\start-hbase.cmd 파일을 실행 할것.
-* Pinpoint_Home\quickstart\bin\init-base.cmd (테이블 초기화)
+```
+Pinpoint_Home\quickstart\bin\init-base.cmd (테이블 초기화)
+```
 
 **Pinpoint 데몬 시작**
 
@@ -66,6 +70,8 @@ APM을 이용한 성능 테스트는 개발환경에서도 가능 하다. Pinpoi
 * Java Agent 경로 : Pinpoint_Home\agent\target\pinpoint-agent-1.6.2\pinpoint-bootstrap-1.6.2.jar
 
 Java Agent 를 실행할때 필요한 Vm argument는 아래와 같다
-* -javaagent:Pinpoint_Home\agent\target\pinpoint-agent-1.6.2\pinpoint-bootstrap-1.6.2.jar
-* -Dpinpoint.agentId=TESTAPP1 (에이전트 ID : 고유한 값이여야 한다.) 
-* -Dpinpoint.applicationName=TESTAPP_WEB ( 웹에 보여줄 Application 이름 )
+```
+-javaagent:Pinpoint_Home\agent\target\pinpoint-agent-1.6.2\pinpoint-bootstrap-1.6.2.jar
+-Dpinpoint.agentId=TESTAPP1 (에이전트 ID : 고유한 값이여야 한다.) 
+-Dpinpoint.applicationName=TESTAPP_WEB ( 웹에 보여줄 Application 이름 )
+```
