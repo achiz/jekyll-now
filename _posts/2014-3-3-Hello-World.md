@@ -2,6 +2,8 @@
 layout: post
 title: You're up and running!
 ---
+다시 블로그를 테스트 해봅니다.
+
 Why real time update not work? ????
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
