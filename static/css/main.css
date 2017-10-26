@@ -6,7 +6,7 @@ body {
   background: url("/static/img/subtle_dots.png");
   line-height: 1.5em;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 20px;
   color: #666;
 }
 hr {
@@ -32,7 +32,7 @@ h1 {
 
 h2 {
     margin-top : 30px;
-    font-size : 25px;
+    font-size : 35px;
 }
 h2, h3 {
   margin-bottom: 5px;
